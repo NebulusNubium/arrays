@@ -1,4 +1,7 @@
 let fruits = ["apple", "banane", "cherry"]
-for(let item of fruits) {
-    console.log(item)
+let i = 2
+while ( i < 0, i--) {
+    fruits.unshift(fruits[2])
+    fruits.pop()
+    console.log(fruits)
 }
